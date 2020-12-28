@@ -5,7 +5,7 @@ from .default_parameters import channel_range, max_num_actions
 from .gui_utils import validate_session
 
 # from .Tint_Matlab import getspikes, read_cut, read_clu
-from pyTint.spikes import getspikes
+from pyTint.spike import getspikes
 from pyTint.parameters import read_cut, read_clu
 
 from .gui_utils import validate_multisessions
