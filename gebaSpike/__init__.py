@@ -11,8 +11,10 @@ from .core.feature_functions import *
 from .core.gui_utils import *
 from .core.plot_functions import *
 from .core.plot_utils import *
-from .core.PopUpCutting import *
-from .core.Tint_Matlab import *
+from .core.PopUpCutting import * 
+
+# from .core.Tint_Matlab import * 
+
 from .core.undo import *
 from .core.waveform_cut_functions import *
 from .core.writeCut import *
@@ -20,5 +22,3 @@ from .core.writeCut import *
 __all__ = ['core', 'main', 'exporters']
 
 # __path__ = __import__('pkgutil').extend_path(__path__, __name__)
-
-

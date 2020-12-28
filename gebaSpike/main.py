@@ -5,7 +5,9 @@ from pyqtgraph.widgets.MatplotlibWidget import MatplotlibWidget
 from core.gui_utils import validate_session, Communicate, validate_cut, find_tetrodes
 from core.default_parameters import project_name, default_filename, defaultXAxis, defaultYAxis, defaultZAxis, openGL, \
     default_move_channel, max_spike_plots, alt_action_button
+
 # from core.Tint_Matlab import find_tetrodes
+
 from core.plot_functions import plot_session, cut_cell, get_index_from_roi
 from core.waveform_cut_functions import moveToChannel, maxSpikesChange
 from core.undo import undo_function

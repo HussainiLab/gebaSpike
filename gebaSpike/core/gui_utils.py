@@ -1,8 +1,13 @@
+
 from PyQt5 import QtWidgets, QtCore
 from .default_parameters import default_filename
 import time
 import os
-from .Tint_Matlab import is_tetrode, read_clu
+
+#from .Tint_Matlab import is_tetrode, read_clu
+from pyTint.eeg import is_tetrode
+from pyTint.parameters import read_clu
+
 from collections import Counter
 
 Large_Font = ("Verdana", 12)  # defines two fonts for different purposes (might not be used

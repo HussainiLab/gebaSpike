@@ -3,7 +3,11 @@ import time
 import numpy as np
 from .default_parameters import channel_range, max_num_actions
 from .gui_utils import validate_session
-from .Tint_Matlab import getspikes, read_cut, read_clu
+
+# from .Tint_Matlab import getspikes, read_cut, read_clu
+from pyTint.spikes import getspikes
+from pyTint.parameters import read_cut, read_clu
+
 from .gui_utils import validate_multisessions
 from .plot_utils import CustomViewBox, get_channel_color, MultiLine
 from .feature_plot import load_features, plot_features
