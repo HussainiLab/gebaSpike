@@ -6,7 +6,7 @@ import os
 
 #from .Tint_Matlab import is_tetrode, read_clu
 from pyTint.eeg import is_tetrode
-from pyTint.parameters import read_clu
+from pyTint.utils import read_clu
 
 from collections import Counter
 
